@@ -1,0 +1,5 @@
+How to run 
+Copy the file on path
+python <filename>.py
+ex:-
+python Browser-Module.py
