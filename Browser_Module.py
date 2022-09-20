@@ -30,9 +30,8 @@ if __name__=="__main__":
   icc.create_text(250, 40, fill='white', font=('MS Sans Serif', 10), text="Hi, this is Pranav founder/creator of this product, I am good")
   icc.create_text(256, 60, fill='white', font=('MS Sans Serif', 10), text="person always try to help others if they need help, if you want")
   icc.create_text(175, 80, fill='white', font=('MS Sans Serif', 10), text="to connect with me follow me on :")
-  icc.create_text(256, 140, fill='white', font=('MS Sans Serif', 10), text="GitHub : https://github.com/Pranav00747")
-  icc.create_text(310, 160, fill='white', font=('MS Sans Serif', 10), text="LinkedIn : https://www.linkedin.com/in/pranav-k-80750818b")
-  icc.create_text(210, 180, fill='white', font=('MS Sans Serif', 10), text="Contact No : 8275183946")
+  icc.create_text(256, 140, fill='white', font=('MS Sans Serif', 10), text="Instagram :- https://www.instagram.com/elcodificadorrr_._")
+  icc.create_text(205, 160, fill='white', font=('MS Sans Serif', 10), text="GitHub :- https://github.com/Pranav00747")
   lab1 = ttm.Label(icc, text="Copyright of @Pranav (Web Box)", bg='#003366', fg='white', font=('Calibri', 10))
   lab1.place(x=200, y=360)
   def ll_e(e):
@@ -67,18 +66,10 @@ if __name__=="__main__":
  cctext.bind('<Button-1>', c_c)
  toolc = ttm.Canvas(bmm, bg='#e0e0e0', width=wd, height=60, highlightthickness=0)
  toolc.place(x=0, y=40)
- img1 = Image.open('back.png')
  img2 = Image.open('refresh.png')
- img3 = Image.open('forward.png')
- img1 = img1.resize((24, 24))
  img2 = img2.resize((20, 20))
- img3 = img3.resize((24, 24))
- global m_img1
  global m_img2
- global m_img3
- m_img1 = ImageTk.PhotoImage(img1)
  m_img2 = ImageTk.PhotoImage(img2)
- m_img3 = ImageTk.PhotoImage(img3)
  url_t = ttm.Entry(toolc, width=175, font=('Arial', 10))
  url_t.place(x=120, y=12)
  backl = ttm.Label(toolc, text='<-', fg='black', font=('Calibri', 16), bg='#e0e0e0')
